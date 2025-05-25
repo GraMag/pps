@@ -1,0 +1,44 @@
+name: idiomapp
+description: tp2-idiomapp
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.5
+  fl_chart: ^0.71.0
+  image_picker: ^0.8.7+4
+  supabase_flutter: ^2.0.0
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+    - assets/flags/spain.png
+    - assets/flags/uk.png
+    - assets/flags/portugal.png
+    - assets/themes/colors.png
+    - assets/themes/animals.png
+    - assets/themes/numbers.png
+    - assets/animals/
+    - assets/audio/
+    - assets/numbers/
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png"

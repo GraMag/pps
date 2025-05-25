@@ -1,0 +1,30 @@
+name: qrsaldo
+description: tp4-qrsaldo
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5
+  supabase_flutter: ^2.0.0
+  mobile_scanner: ^7.0.0
+  font_awesome_flutter: ^10.5.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+    - assets/animals/
+    - assets/fruits/
+    - assets/tools/
+    
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png"

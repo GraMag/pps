@@ -1,0 +1,41 @@
+name: superkinetico
+description: tp9-superkinetico
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.5
+  supabase_flutter: ^2.0.0
+  audioplayers: ^5.2.1
+  sensors_plus: ^3.0.0
+  vibration: ^3.1.3
+  torch_light: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+    - assets/dc.png
+    - assets/marvel.png
+    - assets/background/
+    - assets/characters/marvel/
+    - assets/characters/dc/
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon.png"
